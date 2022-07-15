@@ -1,8 +1,15 @@
+// Fontes e variaveis
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
 @import './scss/variables';
+
+// Layouts
 @import './scss/container';
 @import './scss/navbar';
 @import './scss/footer';
+@import './scss/linkbutton';
+
+// Pages
+@import './scss/home';
 
 * {
   margin: 0;
