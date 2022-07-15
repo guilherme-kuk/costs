@@ -1,0 +1,13 @@
+.btn {
+  background-color: $GRAY;
+  color: $primaryColor;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  transition: .5s;
+  font-weight: 500;
+
+  &:hover {
+    background-color: $secondaryColor;
+    color: $GRAY;
+  }
+}
