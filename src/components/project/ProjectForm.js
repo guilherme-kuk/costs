@@ -21,7 +21,7 @@ export default function ProjectForm({ btnText }) {
 
       <Select name="category_id" text="Selecione a categoria"/>
 
-      {/* btnText está vindo do componente Pai NewProject */}
+      {/* btnText - reaproveitamento vindo do component NewProject */}
       <SubmitButton text={btnText}/>
     </form>
   )
